@@ -23,8 +23,10 @@
       "minecraft:lush_caves": "2026-08-06 05:20:52 +0000",
       "minecraft:dripstone_caves": "2026-08-05 22:26:20 +0000",
       "minecraft:deep_dark": "2026-08-06 00:17:15 +0000",
+      "minecraft:swamp": "2026-08-07 22:25:07 +0000",
       "minecraft:meadow": "2026-08-05 21:13:42 +0000",
       "minecraft:birch_forest": "2026-08-05 21:12:01 +0000",
+      "minecraft:windswept_gravelly_hills": "2026-08-07 22:25:02 +0000",
       "minecraft:windswept_hills": "2026-08-06 05:20:03 +0000",
       "minecraft:old_growth_spruce_taiga": "2026-08-06 05:14:21 +0000",
       "minecraft:plains": "2026-08-05 22:57:16 +0000",
@@ -3218,12 +3220,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_wood": {
-    "criteria": {
-      "has_log": "2026-08-07 21:28:59 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2026-08-07 20:43:43 +0000"
@@ -3239,6 +3235,42 @@
   "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2026-08-07 20:43:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2026-08-07 21:28:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-08-07 22:52:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2026-08-07 22:52:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-08-07 22:52:09 +0000"
+    },
+    "done": true
+  },
+  "wtg:loop_1t": {
+    "criteria": {
+      "die": "2026-08-07 23:35:45 +0000"
+    },
+    "done": true
+  },
+  "wtg:loop_20t": {
+    "criteria": {
+      "die": "2026-08-07 23:35:46 +0000"
     },
     "done": true
   },

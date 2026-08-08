@@ -3312,5 +3312,17 @@
     },
     "done": true
   },
+  "wtg:loop_1t": {
+    "criteria": {
+      "die": "2026-08-07 23:35:45 +0000"
+    },
+    "done": true
+  },
+  "wtg:loop_20t": {
+    "criteria": {
+      "die": "2026-08-07 23:35:46 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4903
 }
