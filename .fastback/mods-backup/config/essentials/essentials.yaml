@@ -1,0 +1,85 @@
+tag:
+  # Shown in chat messages, e.g. [Essentials]
+  text: "Essentials"
+  # Color names follow Minecraft's Formatting enum (case-insensitive), e.g. AQUA, DARK_GRAY, YELLOW
+  color: "DARK_PURPLE"
+  bracketColor: "DARK_GRAY"
+  bold: true
+
+back:
+  # Time window during which /back can be used after a TPA teleport
+  window_seconds: 300
+
+backpack:
+  # Mode: per_player | serverwide | ender_chest
+  # per_player: each player has their own backpack
+  # serverwide: all players share one backpack
+  # ender_chest: the backpack opens the player's ender chest
+  mode: "per_player"
+
+tpa:
+  # Timeout for a TPA/TPAHere request
+  timeout_seconds: 20
+  # Cooldown after cancelling a request before you can send another
+  cooldown_seconds: 5
+
+moderation:
+  # Placeholders: {player}, {reason}, {moderator}, {time}, {expires_at}
+  # Use & followed by a Minecraft formatting code (for example &c or &l).
+  ban_message: "&cYou are banned from this server.\n&7Reason: &f{reason}\n&7Time remaining: &f{time}"
+  # Placeholders: {player}, {reason}, {moderator}
+  kick_message: "&cYou were kicked from this server.\n&7Reason: &f{reason}"
+
+commands:
+  # Access: op | all
+  repair:
+    enabled: true
+    access: "op"
+  heal:
+    enabled: true
+    access: "op"
+  feed:
+    enabled: false
+    access: "op"
+  flight:
+    enabled: false
+    access: "op"
+  disposal:
+    enabled: true
+    access: "all"
+  tpa:
+    enabled: true
+    access: "all"
+  back:
+    enabled: true
+    access: "all"
+  backpack:
+    enabled: true
+    access: "all"
+  backpacksee:
+    enabled: true
+    access: "op"
+  enderchestsee:
+    enabled: true
+    access: "op"
+  inventorysee:
+    enabled: true
+    access: "op"
+  ban:
+    enabled: true
+    access: "op"
+  pardon:
+    enabled: true
+    access: "op"
+  banip:
+    enabled: false
+    access: "op"
+  pardonip:
+    enabled: true
+    access: "op"
+  kick:
+    enabled: true
+    access: "op"
+  history:
+    enabled: true
+    access: "op"
